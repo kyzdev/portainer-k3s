@@ -1,0 +1,4 @@
+namespace: portainer
+resources:
+- portainer-deployment.yaml
+- portainer-ingress.yaml

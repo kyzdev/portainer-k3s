@@ -1,0 +1,6 @@
+namespace: dev-portainer
+bases:
+  - ../../base
+patchesStrategicMerge:
+- portainer-ingress.yaml
+namePrefix: dev-

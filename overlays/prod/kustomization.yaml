@@ -1,0 +1,6 @@
+namespace: prod-portainer
+bases:
+  - ../../base
+patchesStrategicMerge:
+- portainer-ingress.yaml
+namePrefix: prod-
